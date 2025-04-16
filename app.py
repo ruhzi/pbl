@@ -61,6 +61,15 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+# ---------- Top Header ----------
+st.markdown("""
+<div style="width: 100%; background-color: #111827; padding: 1rem 2rem; border-radius: 0.5rem; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center;">
+    <div style="font-size: 1.5rem; font-weight: 600; color: #F9FAFB;">🗺️ Thematic India Map</div>
+    <div style="font-size: 0.9rem; font-weight: 400; color: #9CA3AF;">made by Ruhaan</div>
+</div>
+""", unsafe_allow_html=True)
+
+
 
 
 # ---------- Load GeoJSON ----------
